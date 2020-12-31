@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b623d68-2633-4a2e-9c32-9a4047dd2792" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/application-development.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application-development.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-production.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application-production.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application-qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application-qa.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mQr8wnz9dlxvmBgGcgvwfunLE8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b623d68-2633-4a2e-9c32-9a4047dd2792" name="Default Changelist" comment="" />
+      <created>1609436499368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609436499368</updated>
+      <workItem from="1609436501293" duration="300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="171" y="27" width="1056" height="741" key="CommitChangelistDialog2" timestamp="1609436821838">
+      <screen x="42" y="27" width="1324" height="741" />
+    </state>
+    <state x="171" y="27" width="1056" height="741" key="CommitChangelistDialog2/42.27.1324.741@42.27.1324.741" timestamp="1609436821838" />
+    <state x="193" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1609436996016">
+      <screen x="42" y="27" width="1324" height="741" />
+    </state>
+    <state x="193" y="31" width="1022" height="737" key="SettingsEditor/42.27.1324.741@42.27.1324.741" timestamp="1609436996016" />
+    <state x="453" y="298" width="491" height="206" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1609436804193">
+      <screen x="42" y="27" width="1324" height="741" />
+    </state>
+    <state x="453" y="298" width="491" height="206" key="git4idea.remote.GitConfigureRemotesDialog/42.27.1324.741@42.27.1324.741" timestamp="1609436804193" />
+  </component>
+</project>

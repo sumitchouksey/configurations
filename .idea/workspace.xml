@@ -36,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609436499368</updated>
-      <workItem from="1609436501293" duration="602000" />
+      <workItem from="1609436501293" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="Initial release of configurations">
       <created>1609437046312</created>
@@ -45,7 +45,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609437046312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial release of configurations">
+      <created>1609437139786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609437139786</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -58,17 +65,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial release of configurations" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="171" y="27" width="1056" height="741" key="CommitChangelistDialog2" timestamp="1609436821838">
+    <state x="171" y="27" width="1056" height="741" key="CommitChangelistDialog2" timestamp="1609437139716">
       <screen x="42" y="27" width="1324" height="741" />
     </state>
-    <state x="171" y="27" width="1056" height="741" key="CommitChangelistDialog2/42.27.1324.741@42.27.1324.741" timestamp="1609436821838" />
+    <state x="171" y="27" width="1056" height="741" key="CommitChangelistDialog2/42.27.1324.741@42.27.1324.741" timestamp="1609437139716" />
     <state x="193" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1609436996016">
       <screen x="42" y="27" width="1324" height="741" />
     </state>
     <state x="193" y="31" width="1022" height="737" key="SettingsEditor/42.27.1324.741@42.27.1324.741" timestamp="1609436996016" />
-    <state x="453" y="298" width="491" height="206" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1609436804193">
+    <state x="299" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1609437140926">
       <screen x="42" y="27" width="1324" height="741" />
     </state>
-    <state x="453" y="298" width="491" height="206" key="git4idea.remote.GitConfigureRemotesDialog/42.27.1324.741@42.27.1324.741" timestamp="1609436804193" />
+    <state x="299" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/42.27.1324.741@42.27.1324.741" timestamp="1609437140926" />
+    <state x="453" y="298" width="491" height="206" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1609437015880">
+      <screen x="42" y="27" width="1324" height="741" />
+    </state>
+    <state x="453" y="298" width="491" height="206" key="git4idea.remote.GitConfigureRemotesDialog/42.27.1324.741@42.27.1324.741" timestamp="1609437015880" />
+    <state x="368" y="174" key="run.anything.popup" timestamp="1609437077226">
+      <screen x="42" y="27" width="1324" height="741" />
+    </state>
+    <state x="368" y="174" key="run.anything.popup/42.27.1324.741@42.27.1324.741" timestamp="1609437077226" />
   </component>
 </project>

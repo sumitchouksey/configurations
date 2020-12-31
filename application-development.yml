@@ -58,7 +58,7 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
   client:
     service-url:
-      defaultZone: http://206.189.139.119:3421/eureka
+      defaultZone: http://178.128.127.231:3421/eureka
     register-with-eureka: true
     fetch-registry: true
     registryFetchIntervalSeconds: 2
@@ -95,32 +95,3 @@ spring:
     password: db0e1413ab7bbea4d3170c039008566d93411768150583e8700bc75f46bf2a55
     host: 178.128.127.231
     port: 6379
-
-  #-- MAIL SMTP SERVER CONFIGURATION --#
-
-  mail:
-    host: smtp.gmail.com
-    port: 465
-    username: info@nidavellirs.com
-    password: wwovggzgsqveexau
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
-            required: true
-          ssl:
-            enable: true
-
-# -- DO CONFIGURATION FOR SPACES (FILE UPLOADS)-- #
-digitalOcean:
-  spaces:
-    access:
-      key: 2HFTPYMYRVH2HKY7XKU2
-      secret: 8+LBjRbG8g3EZr50zQza/tNc6ykAZ6AMih+x18SJe38
-    endpoint: https://sfo2.digitaloceanspaces.com
-    region: sfo2
-    bucket:
-      name: playdiators
-      folder: default

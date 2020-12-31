@@ -1,0 +1,126 @@
+# -- BASIC INFORMATION -- #
+info:
+  environment:
+    name: DEVELOPMENT
+    ip: 178.128.127.231
+  developer:
+    name: Sumit Chouksey
+    email: sumitchouksey2315@gmail.com
+
+# -- DEFAULT CONFIGURATION (TOMCAT POOL PROPERTIES) -- #
+
+defaultPoolConfiguration: &refPC
+  type: javax.sql.DataSource
+  factory: org.apache.tomcat.jdbc.pool.DataSourceFactory
+  initialSize: 1
+  maxWaitMillis: 10000
+  maxTotal: 20
+  maxIdle: 1
+  minIdle: 1
+  removeAbandoned: true
+  removeAbandonedTimeout: 10
+  validationQuery: SELECT 1
+  validationInterval: 60
+  testOnBorrow: true
+  timeBetweenEvictionRunsMillis: 28700
+  minEvictableIdleTimeMillis: 28750
+  useSSL: false
+
+# -- DATA SOURCE CONFIGURATION -- #
+
+dataSources:
+  # -- platform datasource for MYSQL -- #
+  platform:
+    name: adrixus
+    host: 178.128.127.231
+    port: 3306
+    userName: playdiator
+    password: playdiator@2019
+    driver: com.mysql.cj.jdbc.Driver
+    schema: adrixus
+    poolConfiguration:
+      <<: *refPC
+
+# -- PARAMETER CONFIGURATION -- #
+parameters:
+  servicesRedirectionUrl: http://localhost:8080
+  pythonRedirectionUrl: http://localhost:8080
+  mailServerIp: gmail
+  mailServerPort: 25
+  mailServerEmail: gmail
+  mailServerPassword: unknown
+
+# -- EUREKA CONFIGURATION -- #
+
+eureka:
+  instance:
+    preferIpAddress: true
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    service-url:
+      defaultZone: http://206.189.139.119:3421/eureka
+    register-with-eureka: true
+    fetch-registry: true
+    registryFetchIntervalSeconds: 2
+
+#-- CLOUD BUS CONFIGURATIONS -- #
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - bus-refresh
+          - bus-evn
+
+# -- CONFIGURATION REQUIRED IN ALL APIs --#
+
+spring:
+
+  # -- RABBITMQ CONFIGURATION -- #
+  cloud:
+    inetutils:
+      preferred-networks:
+        - 10.0
+
+  rabbitmq:
+    host: 178.128.127.231
+    port: 5672
+    username: playdiator
+    password: playdiator@2019
+
+  #-- REDIS SERVER CONFIGURATION --#
+
+  redis:
+    password: db0e1413ab7bbea4d3170c039008566d93411768150583e8700bc75f46bf2a55
+    host: 178.128.127.231
+    port: 6379
+
+  #-- MAIL SMTP SERVER CONFIGURATION --#
+
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: info@nidavellirs.com
+    password: wwovggzgsqveexau
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            enable: true
+
+# -- DO CONFIGURATION FOR SPACES (FILE UPLOADS)-- #
+digitalOcean:
+  spaces:
+    access:
+      key: 2HFTPYMYRVH2HKY7XKU2
+      secret: 8+LBjRbG8g3EZr50zQza/tNc6ykAZ6AMih+x18SJe38
+    endpoint: https://sfo2.digitaloceanspaces.com
+    region: sfo2
+    bucket:
+      name: playdiators
+      folder: default

@@ -1,0 +1,8 @@
+# -- BASIC INFORMATION -- #
+info:
+  environment:
+    name: PRODUCTION
+    ip: 142.93.47.185
+  developer:
+    name: Sumit Chouksey
+    email: sumitchouksey2315@gmail.com

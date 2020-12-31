@@ -1,0 +1,7 @@
+info:
+  name: config-server
+  technology-used: Spring Boot + Spring Cloud (Netflix)
+  developer: "Sumit Chouksey <sumitchouksey2315@gmail.com>"
+  description: A spring cloud configuration server allows to  dynamically update the configurations for all environments
+  development-year: 2017
+  version: v1.0.0

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b623d68-2633-4a2e-9c32-9a4047dd2792" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/application-development.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application-development.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application-production.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application-production.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application-qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application-qa.yml" afterDir="false" />
-    </list>
+    <list default="true" id="2b623d68-2633-4a2e-9c32-9a4047dd2792" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +21,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
@@ -37,12 +36,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609436499368</updated>
-      <workItem from="1609436501293" duration="300000" />
+      <workItem from="1609436501293" duration="602000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial release of configurations">
+      <created>1609437046312</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609437046312</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Initial release of configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial release of configurations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="171" y="27" width="1056" height="741" key="CommitChangelistDialog2" timestamp="1609436821838">
